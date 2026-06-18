@@ -12,7 +12,7 @@ import os
 from datetime import datetime
 from reportlab.pdfgen import canvas
 # تسجيل الخط العربي (تأكد أن الملف في نفس المجلد)
-font_path = os.path.join(os.path.dirname(__file__), 'ARIAL.TTF')
+font_path = os.path.join(os.path.dirname(__file__), 'arial.ttf')
 pdfmetrics.registerFont(TTFont('ArabicFont', font_path))
 
 def ar(text):
